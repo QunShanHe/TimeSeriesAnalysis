@@ -1,5 +1,13 @@
 #  CommunicationNetworks-Prediction
 
+## 文件功能介绍
+|代码文件     |功能     |
+| ------- | ------ |
+|prediction.m| 代码一步执行工作区 |
+|Gompertz.m| Gompertz预测模型 |
+|Logistic.m| Logistic预测模型|
+|drawPrediction.m| 绘制各预测模型的曲线及其预测结果 |
+
 ## Gompertz预测模型
 Gompertz模型是一条渐近曲线，它反映某些经济现象一开始发展较慢，随着时间推移，其增长速度加快，当增长加快达到一定程度后，增长率逐渐减慢，最后达到饱和状态的过程。当预测对象的发展存在极限，并且有相近增长趋势时（例如移动网中的电话普及率预测），可考虑用Gompertz预测模型。
 ### Gompertz模型表达式如下：
