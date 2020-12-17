@@ -25,7 +25,7 @@ plot(x_pred,M_yPred,'--','Color','r','LineWidth',1); hold on;
 xlabel('年份');
 ylabel('部/百人');
 title('2005~2020年移动电话普及率');
-axis([2005 2020 30 119]);
+axis([min(x_pred)-1 max(x_pred)+1 min(M_yPred)-1 max(M_yPred)+1]);
 
 hold off;
 end
